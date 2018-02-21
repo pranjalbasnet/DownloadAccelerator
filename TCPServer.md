@@ -1,0 +1,3 @@
+  #TCPServer
+  
+  This program has the Server used in our TCP. To match each other both server and client have five different threads. Each thread in makes a unique serversocket to connect to the unique client socket so that they might echange specific files. Also each thread in server has a method which sends file to the client. To start off the whole process, the client first splts the original file into particular number of files. After that each thread and started and finally joined which makes sure that one thread waits till the other one completes its execution. This class is solely involved in sending files to the client of the network.
